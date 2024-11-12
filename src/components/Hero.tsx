@@ -46,6 +46,9 @@ export default function Hero() {
           <p className="text-2xl md:text-3xl font-body text-metallic-gold/90 mb-8">
             Since 1970
           </p>
+          <p className="text-xl md:text-2xl font-body text-metallic-gold/90 mb-8">
+            Imagine an event so stunning, it’s unforgettable. Welcome to The Luxe Events Co.—your partner in luxury event décor.
+          </p>
           <a
             href="#portfolio"
             className="btn-primary inline-flex items-center gap-2"

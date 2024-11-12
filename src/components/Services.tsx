@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Calendar, Users, Sparkles, Clock } from 'lucide-react';
+import { Calendar, Users, Sparkles, Clock, Gift, Image } from 'lucide-react';
 
 const services = [
   {
@@ -25,6 +25,18 @@ const services = [
     icon: Clock,
     title: 'Day-Of Coordination',
     description: 'Ensure your event runs smoothly with our experienced coordinators.',
+    price: 'Starting at $1,500',
+  },
+  {
+    icon: Gift,
+    title: 'Luxury Balloon Installations',
+    description: 'Bringing sophistication to your venue with handcrafted arches and garlands tailored to your theme.',
+    price: 'Starting at $2,000',
+  },
+  {
+    icon: Image,
+    title: 'Bespoke Backdrops',
+    description: 'Chic, customized centerpieces perfect for unforgettable photos and cherished memories.',
     price: 'Starting at $1,500',
   },
 ];
