@@ -40,14 +40,17 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          <h1 className="text-6xl md:text-8xl font-heading font-bold text-quality-black mb-6">
-            Crafting Unforgettable Moments
+          <h1 className="text-6xl md:text-8xl font-heading font-bold text-quality-black mb-6 relative">
+            <span className="relative z-10">Crafting Unforgettable Moments</span>
+            <span className="absolute inset-0 text-black text-opacity-50 text-6xl md:text-8xl font-heading font-bold -z-10">Crafting Unforgettable Moments</span>
           </h1>
-          <p className="text-2xl md:text-3xl font-body text-metallic-gold/90 mb-8">
-            Since 1970
+          <p className="text-2xl md:text-3xl font-body text-metallic-gold/90 mb-8 relative">
+            <span className="relative z-10">Since 2000</span>
+            <span className="absolute inset-0 text-black text-opacity-50 text-2xl md:text-3xl font-body -z-10">Since 1970</span>
           </p>
-          <p className="text-xl md:text-2xl font-body text-metallic-gold/90 mb-8">
-            Imagine an event so stunning, it’s unforgettable. Welcome to The Luxe Events Co.—your partner in luxury event décor.
+          <p className="text-xl md:text-2xl font-body text-metallic-gold/90 mb-8 relative">
+            <span className="relative z-10">Imagine an event so stunning, it’s unforgettable. Welcome to The Luxe Events Co.—your partner in luxury event décor.</span>
+            <span className="absolute inset-0 text-black text-opacity-50 text-xl md:text-2xl font-body -z-10">Imagine an event so stunning, it’s unforgettable. Welcome to The Luxe Events Co.—your partner in luxury event décor.</span>
           </p>
           <a
             href="#portfolio"
