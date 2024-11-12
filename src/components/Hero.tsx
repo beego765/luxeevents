@@ -22,13 +22,10 @@ export default function Hero() {
           transform: `translateY(${scrollY * 0.5}px)`,
         }}
       >
-        <div 
-          className="parallax-bg image-overlay"
-          style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=2048&q=80)',
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
-          }}
+        <img 
+          src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=2048&q=80"
+          alt="Hero Background"
+          className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="radial-gradient" />
       </div>
@@ -41,15 +38,15 @@ export default function Hero() {
           className="text-center"
         >
           <h1 className="text-6xl md:text-8xl font-heading font-bold text-quality-black mb-6 relative">
-            <span className="relative z-10">Crafting Unforgettable Moments</span>
+            <span className="relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-gold to-metallic-gold shadow-lg">Crafting Unforgettable Moments</span>
             <span className="absolute inset-0 text-black text-opacity-50 text-6xl md:text-8xl font-heading font-bold -z-10">Crafting Unforgettable Moments</span>
           </h1>
           <p className="text-2xl md:text-3xl font-body text-metallic-gold/90 mb-8 relative">
-            <span className="relative z-10">Since 2000</span>
+            <span className="relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-gold to-metallic-gold shadow-lg">Since 1970</span>
             <span className="absolute inset-0 text-black text-opacity-50 text-2xl md:text-3xl font-body -z-10">Since 1970</span>
           </p>
           <p className="text-xl md:text-2xl font-body text-metallic-gold/90 mb-8 relative">
-            <span className="relative z-10">Imagine an event so stunning, it’s unforgettable. Welcome to The Luxe Events Co.—your partner in luxury event décor.</span>
+            <span className="relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-gold to-metallic-gold shadow-lg">Imagine an event so stunning, it’s unforgettable. Welcome to The Luxe Events Co.—your partner in luxury event décor.</span>
             <span className="absolute inset-0 text-black text-opacity-50 text-xl md:text-2xl font-body -z-10">Imagine an event so stunning, it’s unforgettable. Welcome to The Luxe Events Co.—your partner in luxury event décor.</span>
           </p>
           <a
