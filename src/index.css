@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-quality-black font-body text-metallic-gold;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply bg-metallic-gold text-quality-black px-6 py-3 rounded-sm font-body font-medium 
+           transition-all duration-300 hover:bg-gold hover:shadow-lg;
+  }
+
+  .section-title {
+    @apply font-heading text-4xl md:text-5xl lg:text-6xl text-metallic-gold mb-6;
+  }
+
+  .section-subtitle {
+    @apply font-body text-lg md:text-xl text-gold/80 mb-12;
+  }
+
+  .parallax-wrapper {
+    @apply relative overflow-hidden;
+    perspective: 10px;
+    transform-style: preserve-3d;
+  }
+
+  .parallax-bg {
+    @apply absolute inset-0 z-0;
+    transform: translateZ(-10px) scale(2);
+  }
+
+  .image-overlay {
+    @apply relative;
+  }
+
+  .image-overlay::after {
+    content: '';
+    @apply absolute inset-0;
+    background: linear-gradient(
+      to bottom,
+      rgba(212, 175, 55, 0.2),
+      rgba(212, 175, 55, 0.2)
+    );
+    mix-blend-mode: overlay;
+    filter: contrast(115%);
+  }
+
+  .radial-gradient {
+    @apply absolute inset-0;
+    background: radial-gradient(
+      circle at center,
+      rgba(26, 26, 26, 0.7) 0%,
+      transparent 70%
+    );
+  }
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.testimonial-carousel {
+  @apply overflow-hidden relative;
+}
+
+.contact-input {
+  @apply w-full px-4 py-3 border border-metallic-gold/30 rounded-sm bg-quality-black/90
+         focus:outline-none focus:ring-2 focus:ring-metallic-gold/50 focus:border-transparent
+         transition-all duration-300;
+}
