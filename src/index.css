@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 @layer base {
   html {
@@ -8,11 +8,13 @@
   }
   
   body {
-    @apply bg-quality-black font-body text-metallic-gold;
+    background-color: var(--color-quality-black);
+    font-family: var(--font-body);
+    color: var(--color-metallic-gold);
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-heading;
+    font-family: var(--font-heading);
   }
 }
 
