@@ -1,11 +1,10 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-// Remove the unused import on line 3
 
 const team = [
-  { name: 'John Doe', role: 'CEO', image: 'john_doe.jpg', email: 'john.doe@example.com', linkedin: 'https://linkedin.com/in/johndoe', instagram: 'https://instagram.com/johndoe' },
-  { name: 'Jane Smith', role: 'CTO', image: 'jane_smith.jpg', email: 'jane.smith@example.com', linkedin: 'https://linkedin.com/in/janesmith', instagram: 'https://instagram.com/janesmith' },
-  { name: 'Alice Johnson', role: 'Designer', image: 'alice_johnson.jpg', email: 'alice.johnson@example.com', linkedin: 'https://linkedin.com/in/alicejohnson', instagram: 'https://instagram.com/alicejohnson' },
+  { name: 'John Doe', role: 'CEO', image: 'assets/images/WhatsApp Image 2024-11-12 at 6.41.47 PM (1).jpeg', email: 'john.doe@example.com', linkedin: 'https://linkedin.com/in/johndoe', instagram: 'https://instagram.com/johndoe' },
+  { name: 'Jane Smith', role: 'CTO', image: 'assets/images/WhatsApp Image 2024-11-12 at 6.41.47 PM.jpeg', email: 'jane.smith@example.com', linkedin: 'https://linkedin.com/in/janesmith', instagram: 'https://instagram.com/janesmith' },
+  { name: 'Alice Johnson', role: 'Designer', image: 'assets/images/WhatsApp Image 2024-11-12 at 6.41.48 PM (2).jpeg', email: 'alice.johnson@example.com', linkedin: 'https://linkedin.com/in/alicejohnson', instagram: 'https://instagram.com/alicejohnson' },
   // Add more members as needed
 ];
 
