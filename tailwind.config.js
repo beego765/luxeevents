@@ -9,6 +9,8 @@ export default {
         ivory: '#FFFFF0',
         taupe: '#483C32',
         'quality-black': '#1A1A1A',
+        'gold-light': '#FDD0A2',
+        'gold-dark': '#B8860B',
       },
       fontFamily: {
         heading: ['Cormorant Garamond', 'serif'],
