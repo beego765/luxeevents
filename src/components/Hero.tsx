@@ -37,21 +37,23 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          <h1 className="text-6xl md:text-8xl font-heading font-bold text-quality-black mb-6 relative">
-            <span className="relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-gold to-metallic-gold shadow-lg">Crafting Unforgettable Moments</span>
-            <span className="absolute inset-0 text-black text-opacity-50 text-6xl md:text-8xl font-heading font-bold -z-10">Crafting Unforgettable Moments</span>
-          </h1>
-          <p className="text-2xl md:text-3xl font-body text-metallic-gold/90 mb-8 relative">
-            <span className="relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-gold to-metallic-gold shadow-lg">Since 1970</span>
-            <span className="absolute inset-0 text-black text-opacity-50 text-2xl md:text-3xl font-body -z-10">Since 1970</span>
-          </p>
-          <p className="text-xl md:text-2xl font-body text-metallic-gold/90 mb-8 relative">
-            <span className="relative z-10 text-transparent bg-clip-text bg-gradient-to-r from-gold to-metallic-gold shadow-lg">Imagine an event so stunning, it’s unforgettable. Welcome to The Luxe Events Co.—your partner in luxury event décor.</span>
-            <span className="absolute inset-0 text-black text-opacity-50 text-xl md:text-2xl font-body -z-10">Imagine an event so stunning, it’s unforgettable. Welcome to The Luxe Events Co.—your partner in luxury event décor.</span>
-          </p>
+          <div className="bg-white bg-opacity-20 p-8 rounded-lg shadow-lg">
+            <h1 className="text-6xl md:text-8xl font-heading font-bold text-quality-black mb-6 relative">
+              <span className="relative z-10 text-black text-opacity-80 shadow-lg">Crafting Unforgettable Moments</span>
+              <span className="absolute inset-0 text-black text-opacity-50 text-6xl md:text-8xl font-heading font-bold -z-10">Crafting Unforgettable Moments</span>
+            </h1>
+            <p className="text-2xl md:text-3xl font-body text-metallic-gold/90 mb-8 relative">
+              <span className="relative z-10 text-black text-opacity-80 shadow-lg">Since 1970</span>
+              <span className="absolute inset-0 text-black text-opacity-50 text-2xl md:text-3xl font-body -z-10">Since 1970</span>
+            </p>
+            <p className="text-xl md:text-2xl font-body text-metallic-gold/90 mb-8 relative">
+              <span className="relative z-10 text-black text-opacity-80 shadow-lg">Imagine an event so stunning, it’s unforgettable. Welcome to The Luxe Events Co.—your partner in luxury event décor.</span>
+              <span className="absolute inset-0 text-black text-opacity-50 text-xl md:text-2xl font-body -z-10">Imagine an event so stunning, it’s unforgettable. Welcome to The Luxe Events Co.—your partner in luxury event décor.</span>
+            </p>
+          </div>
           <a
             href="#portfolio"
-            className="btn-primary inline-flex items-center gap-2"
+            className="btn-primary inline-flex items-center gap-2 mt-8"
           >
             Explore Our Work
             <ChevronDown className="w-5 h-5" />

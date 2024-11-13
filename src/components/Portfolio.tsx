@@ -2,12 +2,25 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const portfolioItems = [
-  { id: 1, title: 'Event 1', category: 'Wedding', image: 'event1.jpg' },
-  { id: 2, title: 'Event 2', category: 'Corporate', image: 'event2.jpg' },
-  { id: 3, title: 'Event 3', category: 'Special Occasion', image: 'event3.jpg' },
-  // Add more items as needed
+  { 
+    id: 1, 
+    title: 'Event 1', 
+    category: 'Wedding', 
+    image: '/src/assets/images/WhatsApp Image 2024-11-12 at 6.41.50 PM.jpeg' 
+  },
+  { 
+    id: 2, 
+    title: 'Event 2', 
+    category: 'Corporate', 
+    image: '/src/assets/images/WhatsApp Image 2024-11-12 at 6.41.51 PM.jpeg' 
+  },
+  { 
+    id: 3, 
+    title: 'Event 3', 
+    category: 'Special Occasion', 
+    image: '/src/assets/images/WhatsApp Image 2024-11-12 at 6.41.50 PM.jpeg' 
+  }
 ];
-
 export default function Portfolio() {
   const [scrollY, setScrollY] = useState(0);
 
