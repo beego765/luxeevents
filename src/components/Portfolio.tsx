@@ -6,19 +6,91 @@ const portfolioItems = [
     id: 1, 
     title: 'Event 1', 
     category: 'Wedding', 
-    image: '/src/assets/images/WhatsApp Image 2024-11-12 at 6.41.50 PM.jpeg' 
+    image: '/src/assets/images/event1.jpeg' 
   },
   { 
     id: 2, 
     title: 'Event 2', 
     category: 'Corporate', 
-    image: '/src/assets/images/WhatsApp Image 2024-11-12 at 6.41.51 PM.jpeg' 
+    image: '/src/assets/images/event2.jpeg' 
   },
   { 
     id: 3, 
     title: 'Event 3', 
     category: 'Special Occasion', 
+    image: '/src/assets/images/event3.jpeg' 
+  },
+  { 
+    id: 4, 
+    title: 'Event 4', 
+    category: 'Wedding', 
+    image: '/src/assets/images/WhatsApp Image 2024-11-12 at 6.41.47 PM (1).jpeg' 
+  },
+  { 
+    id: 5, 
+    title: 'Event 5', 
+    category: 'Corporate', 
+    image: '/src/assets/images/WhatsApp Image 2024-11-12 at 6.41.47 PM.jpeg' 
+  },
+  { 
+    id: 6, 
+    title: 'Event 6', 
+    category: 'Special Occasion', 
+    image: '/src/assets/images/WhatsApp Image 2024-11-12 at 6.41.48 PM (2).jpeg' 
+  },
+  { 
+    id: 7, 
+    title: 'Event 7', 
+    category: 'Wedding', 
+    image: '/src/assets/images/WhatsApp Image 2024-11-12 at 6.41.48 PM.jpeg' 
+  },
+  { 
+    id: 8, 
+    title: 'Event 8', 
+    category: 'Corporate', 
+    image: '/src/assets/images/WhatsApp Image 2024-11-12 at 6.41.49 PM (1).jpeg' 
+  },
+  { 
+    id: 9, 
+    title: 'Event 9', 
+    category: 'Special Occasion', 
+    image: '/src/assets/images/WhatsApp Image 2024-11-12 at 6.41.49 PM (2).jpeg' 
+  },
+  { 
+    id: 10, 
+    title: 'Event 10', 
+    category: 'Wedding', 
+    image: '/src/assets/images/WhatsApp Image 2024-11-12 at 6.41.49 PM (3).jpeg' 
+  },
+  { 
+    id: 11, 
+    title: 'Event 11', 
+    category: 'Corporate', 
+    image: '/src/assets/images/WhatsApp Image 2024-11-12 at 6.41.49 PM (4).jpeg' 
+  },
+  { 
+    id: 12, 
+    title: 'Event 12', 
+    category: 'Special Occasion', 
+    image: '/src/assets/images/WhatsApp Image 2024-11-12 at 6.41.49 PM.jpeg' 
+  },
+  { 
+    id: 13, 
+    title: 'Event 13', 
+    category: 'Wedding', 
+    image: '/src/assets/images/WhatsApp Image 2024-11-12 at 6.41.50 PM (3).jpeg' 
+  },
+  { 
+    id: 14, 
+    title: 'Event 14', 
+    category: 'Corporate', 
     image: '/src/assets/images/WhatsApp Image 2024-11-12 at 6.41.50 PM.jpeg' 
+  },
+  { 
+    id: 15, 
+    title: 'Event 15', 
+    category: 'Special Occasion', 
+    image: '/src/assets/images/WhatsApp Image 2024-11-12 at 6.41.51 PM.jpeg' 
   }
 ];
 export default function Portfolio() {
@@ -61,7 +133,7 @@ export default function Portfolio() {
                   <img
                     src={item.image}
                     alt={item.title}
-                    className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110"
+                    className="object-cover w-full h-full transform transition-transform duration-500 group-hover:scale-110 rounded-full"
                   />
                 </div>
               </div>
